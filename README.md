@@ -57,3 +57,5 @@ PHIEUNHAP: IDPhieuNhap(PK), IDNhanVien(FK), IDNXB(FK), NgayNhap,
 CHITIETPHIEUNHAP: IDPhieuNhap(FK), IDSach(FK), SoLuong, DonGia
 THONGKE: IDThongKe(PK), LoaiThongKe (Nhâp, tổng sl mượn/tháng, trễ hạn), ThoiGian, IDPhieuNhap(FK), IDPhieuMuon(FK), IDViPham(FK)
 VIPHAM: IDViPham(PK), IDDocGia(FK), NgayViPham
+
+### “Vẽ sơ đồ trên dbdiagram.io để tiện cho Export ra SQL”
