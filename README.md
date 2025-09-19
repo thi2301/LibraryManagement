@@ -1,5 +1,17 @@
 
 # 📚 Library Management System
+
+## 📝 Giới thiệu
+Đây là đồ án môn học về **Hệ quản trị cơ sở dữ liệu**, xây dựng hệ thống quản lý thư viện với các chức năng cơ bản như:
+
+- Quản lý sách, độc giả, nhân viên
+- Mượn/trả sách
+- Thống kê nhập sách, vi phạm
+- Quản lý nhà xuất bản và phiếu nhập
+
+Hệ thống được thiết kế bằng **SQL Server**, với sơ đồ ERD, sơ đồ cài đặt và sơ đồ vật lý đầy đủ.
+
+---
 ## Mô hình hóa quy trình hoạt động cơ bản của thư viện:
 
 Nhà cung cấp --> Nhập sách --> Kho sách --> Độc giả -->Đăng nhập tài khoản -> Mượn sách --> Trả sách --> Thống kê
